@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Ecotech · Panel del Mentor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.6.0/mammoth.browser.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+  <div class="app">
+    <div class="side">
+      <div class="logo"><b>Eco</b>tech <i>Mentor</i></div>
+      <small>Panel del Mentor</small>
+      <div class="nv on"><span>1</span> Diagnóstico y Kickoff</div>
+      <div class="nv"><span>2</span> Mentorías</div>
+      <div class="nv"><span>3</span> Resumen</div>
+      <div class="sec">CONFIGURACIÓN</div>
+      <div class="nv" onclick="setKey()"><span>API</span> Clave Anthropic</div>
+      <div class="nv" onclick="location.href='../index.html'"><span>←</span> Cambiar Rol</div>
+    </div>
+
+    <div class="ech">
+      <div class="top">
+        <div>
+          <b>Panel del Mentor</b>
+          <span>Herramienta de diagnóstico y seguimiento</span>
+        </div>
+      </div>
+      <div class="main">
+        <h2>Diagnóstico del Mentor</h2>
+        <p class="s">Edita el texto HTML de esta interfaz directamente en el archivo <code>pages/mentor.html</code>.</p>
+        <div class="card">
+          <h3>Información General</h3>
+          <p>Usa esta sección para configurar las variables de evaluación y notas del kickoff.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="../js/config.js"></script>
+  <script src="../js/app.js"></script>
+</body>
+</html>
